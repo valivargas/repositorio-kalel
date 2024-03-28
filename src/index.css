@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.contenedor-contador {
+  border: groove 2px black  ;
+  background-color: dimgrey;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 25%;
+ 
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  
+  
+  
+  
+}
