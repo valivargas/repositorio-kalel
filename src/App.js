@@ -17,6 +17,7 @@ const App = () => {
 
         <BrowserRouter>
        <CardNavBar/> {/* puse el navbar en la principal para que se muestre en todas las rutas  */}
+      
 
         <Routes>
        
@@ -28,9 +29,9 @@ const App = () => {
         < Route path="/Slider" element ={<Slider/>}/>
         
         
+        
 
         </Routes>
-        
         <Footer/>
         </BrowserRouter>
       
