@@ -1,5 +1,4 @@
 import React from 'react'
-import NavBar from '../common/NavBar'
 
 const Servicios = () => {
   return (

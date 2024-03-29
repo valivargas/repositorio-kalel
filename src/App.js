@@ -14,29 +14,18 @@ import { Slider } from '@mui/material'
 
 const App = () => {
   return (
-
-        <BrowserRouter>
+      <BrowserRouter>
        <CardNavBar/> {/* puse el navbar en la principal para que se muestre en todas las rutas  */}
-      
-
         <Routes>
-       
-        < Route path="/" element ={<Home/>}/>
-        < Route path="/Servicios" element ={<Servicios/>}/>
-        < Route path="/Contacto" element ={<Contacto/>}/>
-        < Route path="/Programas" element ={<Programas/>}/>
-        < Route path="/Socios" element ={<Socios/>}/>
-        < Route path="/Slider" element ={<Slider/>}/>
-        
-        
-        
-
+          < Route path="/" element ={<Home/>}/>
+          < Route path="/Servicios" element ={<Servicios/>}/>
+          < Route path="/Contacto" element ={<Contacto/>}/>
+          < Route path="/Programas" element ={<Programas/>}/>
+          < Route path="/Socios" element ={<Socios/>}/>
+          < Route path="/Slider" element ={<Slider/>}/>
         </Routes>
         <Footer/>
-        </BrowserRouter>
-      
-    
- 
+      </BrowserRouter>
   )
 }
 

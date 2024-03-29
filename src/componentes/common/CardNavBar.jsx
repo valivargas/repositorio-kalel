@@ -8,12 +8,10 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import imagenes from '../imagenes/logo2.png'
 import { Link } from 'react-router-dom';
-import Slider from './slider/Slider'
+import { logo2Image } from './ayuda/constantes';
 
 const pages = ['Socios', 'Servicios', 'Contacto', 'Programas'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -41,7 +39,7 @@ function CardNavBar() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-        <Avatar alt="Logo" src={imagenes} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 , width :150, heigth : 200 }} />
+        <Avatar alt="Logo" src={logo2Image} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 , width :150, heigth : 200 }} />
           <Typography
             variant="h6"
             noWrap
