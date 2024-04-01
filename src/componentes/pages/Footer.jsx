@@ -17,10 +17,12 @@ const Footer = () => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        padding: '20px',
         backgroundImage: `url(${footerImage})`, // Establece la imagen como fondo
         backgroundSize: 'cover', // Ajusta el tamaño de la imagen al contenedor
-        backgroundPosition: 'center' // Centra la imagen en el contenedor
+        backgroundPosition: 'center' ,// Centra la imagen en el contenedor
+        position: 'fixed',
+        bottom: 0,
+        padding: '20px'
       }}
     >
       <Grid container direction='row' spacing={4}>
@@ -46,7 +48,7 @@ const Footer = () => {
             <span><EmailIcon /> Informes@skfdfgkdfg</span>
           </Grid>
         </Grid>
-        <Grid item container  xs={12} md={3}  spacing={2}  alignItems='center'>
+        <Grid item container  xs={12} md={3}  alignItems='center'>
 
           <Grid item xs={12} >
             <h2>SIGUENOS</h2>
