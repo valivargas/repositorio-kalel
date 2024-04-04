@@ -39,6 +39,7 @@ function CardNavBar() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
+        
         <Avatar alt="Logo" src={logo2Image} sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 , width :150, heigth : 200 }} />
           <Typography
             variant="h6"

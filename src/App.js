@@ -9,6 +9,7 @@ import Programas from './componentes/pages/Programas'
 import CardNavBar from './componentes/common/CardNavBar'
 import Socios from './componentes/pages/Socios'
 import { Slider } from '@mui/material'
+import WhatsApp from './componentes/common/whatssap/Whatsapp'
 
 
 
