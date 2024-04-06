@@ -45,7 +45,9 @@ const Footer = () => {
       style={{
         backgroundImage: `url(${FooterBackground})`,
         color: "white",
-        padding: '20px'
+        padding: '15px',
+        width:'100%',
+        backgroundSize: 'cover'
       }}
     >
       <Grid container direction='row' spacing={4} justifyContent="center" style={{ marginBottom: '40px' }}>
@@ -60,7 +62,7 @@ const Footer = () => {
               index={activeIndex}
               onChangeIndex={(index) => setActiveIndex(index)}
               enableMouseEvents
-              interval={3000} // Intervalo de cambio en milisegundos
+              interval={5000} // Intervalo de cambio en milisegundos
               style={{ overflow: 'hidden' }} // Ocultar el desbordamiento de contenido
             >
               {/* Mapea cada subarray de socios */}
@@ -69,7 +71,7 @@ const Footer = () => {
                   <Grid container spacing={2}>
                     {/* Mapea cada socio dentro del bloque */}
                     {block.map((image, subIndex) => (
-                      <Grid item xs={6} md={3} key={subIndex}>
+                      <Grid   item xs={6} md={3} key={subIndex}>
                         <a href={image.web} target="_blank" rel="noopener noreferrer">
                           <img
                             src={image.imagen}

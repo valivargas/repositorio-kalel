@@ -4,12 +4,11 @@ import Contacto from './componentes/pages/Contacto'
 import Home from './componentes/pages/Home'
 import Servicios from './componentes/pages/Servicios'
 import Footer from './componentes/pages/Footer'
-
 import Programas from './componentes/pages/Programas'
 import CardNavBar from './componentes/common/CardNavBar'
 import Socios from './componentes/pages/Socios'
 import { Slider } from '@mui/material'
-import WhatsApp from './componentes/common/whatssap/Whatsapp'
+
 
 
 
